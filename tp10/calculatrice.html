@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="calculatrice.css">
+    <script src="calculatrice.js"></script>
+</head>
+<body>
+
+        <table border="1" width="10">
+                <tr><td bgcolor="white"><a href="index.html">retour</a></td></tr>
+    
+            </table>
+
+
+    <div>
+      <label for="">Nombre 1:</label>
+      <input type="text" name="t1" id="t1" placeholder="Ajouter un Nombre">
+       
+      <br>
+      <br>
+      
+       <label for="">Nombre 2:</label>
+       <input type="text" name="t2" id="t2" placeholder="Ajouter un Nombre">
+    </div>
+
+    
+    <div>
+        <button onclick="somme()"> + </button>
+        <button onclick="moin()"> - </button>
+        <button onclick="multiplier()"> x </button>
+        <button onclick="diviser()"> / </button>
+    </div>
+
+    <div>
+        <button onclick="parite()"> Parité </button>
+        <button onclick="permuter()"> Permuter </button>
+    </div>
+
+    <div>
+        <label for="">Resultat</label>
+        <input type="text" name="Resultat" id="resultat" placeholder="Resultat">
+
+        <br>
+        <br>
+
+        <label for="">Paire</label>
+        <input type="text" name="Paire" id="paire" placeholder="Paire - Impaire">
+    </div>
+
+        <button onclick="supprimer()"> Supprimer </button>
+
+    </div>
+       
+    
+    
+</body>
+</html>
