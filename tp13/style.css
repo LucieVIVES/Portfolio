@@ -1,0 +1,71 @@
+.r1{ 
+    height: 200px;
+    width: 450px;
+    margin: 5px;
+    float: left;
+}
+
+.c1{
+     float: right;
+    height: 200px;
+    width: 200px;
+}
+
+.b2 {
+    height: 200px;
+    width: 450px;
+    margin: 20px;
+    float: right;
+ margin-bottom: 60px;
+}
+
+.a2 {
+  clear: both;
+  float: left;
+  width: 300px;
+}
+
+.A3 {
+  clear: both;
+ margin-bottom: 100px;
+}
+
+.u1 {
+  margin: auto;
+  width:90% ;
+  height: 800px;
+  border: 1px solid rgb(179, 31, 31);
+    box-shadow: 0 0 20px rgb(142, 40, 125);
+}
+
+input[type="text"] { 
+width: 97%;
+        border:black;
+        background: rgb(241, 159, 235);
+        text-align: center;
+        font-size: 15px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+input[type="Nom"]{
+background:rgb(241, 159, 235);
+ border:black;
+ text-align: center;
+}
+
+tr{
+ border:black;
+  background: rgb(241, 159, 235);
+ text-align: center;
+}
+
+
+button {
+background-color: rgb(255, 255, 255);
+ border:black;
+
+
+}
