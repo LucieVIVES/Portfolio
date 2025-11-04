@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(253, 254, 252);
+
+}
+.centre{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h1{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header{
+
+    background-color: rgb(229, 254, 63);
+    height: 75px;
+    width: 100%;
+    margin: 0px;
+    align-content: center;
+
+
+
+}
+
+.a1{
+    background-color: rgb(184, 184, 184);
+    height: 600px;
+    width: 500px;
+    margin: 20px;
+    float: left;
+    border-radius: 1%;
+
+    align-content: center;
+
+
+}
+
+
+
+.l1{
+    background-color: rgb(229, 254, 63);
+    height: 100px;
+    margin: 20px;
+    border-radius: 10px;
+   
+
+     align-content: center;
+
+
+}
+
+.p1{
+
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    
+    
+    text-align: center;
+    align-content: center;
+
+}
+
+
+
+.footer{
+    background-color: rgb(229, 254, 63);
+    height: 50px;
+    width: 100%;
+
+    clear: both;
+    align-content: center;
+}
+
+a.button{
+    
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-color: yellow;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(128, 138, 71);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+
+a.button:hover{
+    background-color: rgb(255, 119, 119);
+}
+
+img{
+    border-radius: 3%;
+}
